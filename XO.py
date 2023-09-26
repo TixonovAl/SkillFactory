@@ -8,6 +8,7 @@ board = [[' ', '0', '1', '2'],
 #Двумерная матрица для поля
 
 def draw_board(board):
+    print()
     print('-' * 17)
     for i in range(4):
         print('|', board[0][0 + i],
